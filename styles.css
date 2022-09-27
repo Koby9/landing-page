@@ -1,4 +1,129 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
+    font-family: Roboto, sans-serif;
+}
+
+.nav {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding: 15px;
+}
+
+.logo {
+    width: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    display: flex;
+    color: white;
+    background-color: #1F2937;
+    padding: 30px;
+    justify-content: space-evenly;
+    gap: 100px;
+}
+
+.phone {
+    width: 280px;
+}
+
+.header-text {
+   padding-top: 80px;
+}
+
+.header-text button {
+    border: 0px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    margin: 50px;
+    color: #1F2937;
+}
+
+.features {
+    display: flex;
+    text-align: center;
+    padding: 0px 50px 70px 50px;
+    gap: 16px;
+    /* width: 100px; */
+    justify-content: center;
+}
+
+.features img {
+    width: 200px;
+    border: solid #1F2937 3px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.testimonial {
+    /* display: flex;
+    flex-direction: column; */
+    justify-content: center;
+    width: 600px;
+    align-self: center;
+    background-color: #E5E7EB;
+    padding: 100px 100%;
+    font-style: italic;
+    font-size: 24px;
+    color: #1f2937;
+}
+
+.sign-up {
+    display: flex;
+    padding: 25px 10px;
+    justify-content: center;
+    gap: 100px;
+    margin: 100px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+button {
+    border-radius: 8px;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #3882F6;
+    color: white;
+    border: solid white 2px;
+}
+
+.sign-up button {
+    padding: 10px 30px;
+    margin: 20px 0px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 50px;
+    text-align: center;
 }
